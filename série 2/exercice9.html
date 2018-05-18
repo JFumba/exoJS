@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<title>Exercice 9</title>
+</head>
+<body>
+<button onclick="testWhile ()">click on me</button>
+<script>
+function testWhile (){
+do {
+var lettreP = prompt('Veuillez écrire une phrase de votre choix,celle-ci doit contenir au moins un "p"');
+var ok=lettreP.indexOf('p');
+}
+while (ok == -1);
+alert("\'" +lettreP+"\'");
+};
+
+
+</script>
+
+</body>
+</html>

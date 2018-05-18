@@ -2,22 +2,21 @@
 <html>
 <head>
   <meta charset="UTF-8">
-<title>Exercice 3</title>
+<title>Exercice 4</title>
 </head>
 <body>
 <button onclick="affiche ()">cliquez pour obtenir les résultats</button>
 <script>
-var a = 2;
-var b = 3;
+var tab =[-2,1,4];
 var x= prompt("veuillez saisir un nombre");
-function triple (x) {
+function additionne (x) {
 
-return x*3;
+return x+2;
 
 }
 function affiche () {
-alert(triple(a));
-alert(triple(b));
+alert(additionne(tab[0]));
+alert(additionne(tab[tab.length - 1]));
 }
 </script>
 
